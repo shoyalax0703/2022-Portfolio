@@ -19,6 +19,7 @@ const Header = () => {
           loop
         />
         <a href="#" className="btn-main-offer">contact me</a>
+        <p className="card-caption-url"><a class="url-link" href="https://github.com/shoyalax0703" target="_blank">Github</a></p>
       </div>
     </div>
   );

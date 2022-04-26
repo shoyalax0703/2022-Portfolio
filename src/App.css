@@ -144,7 +144,7 @@ border-radius: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .profile-img{
@@ -158,4 +158,26 @@ border-radius: 0;
 .about-header{
   color: var(--primary-pink);
   text-transform: uppercase;
+  text-align: center;
+}
+
+/**********Experience**********/
+
+.experience{
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color: #f7f6f7;
+}
+
+.experience h1{
+  color: #ff008b;
+  text-transform: uppercase;
+}
+
+.experience .box{
+height: 16rem;
+border-bottom: 0.3125rem solid  var(--primary-pink);
+padding: 0.625rem;
+margin-bottom: 1.875rem;
+background: var(--primary-white);
 }

@@ -28,8 +28,7 @@ const Experience = () => {
                 </div>
                 <h3>Event Planning</h3>
                 <p>
-                  Managed many live training with the various topics (not only
-                  tech also soft skill-related topics).
+                  Managed many live training with the various topics.
                 </p>
               </div>
             </div>
@@ -40,8 +39,7 @@ const Experience = () => {
                 </div>
                 <h3>Project Management</h3>
                 <p>
-                  Delivered six-critical process training to over 200 ppl and
-                  made them complete 100% of taking courses.
+                  Delivered six-critical process training to over 200 ppl.
                 </p>
               </div>
             </div>
@@ -52,8 +50,7 @@ const Experience = () => {
                 </div>
                 <h3>Communication</h3>
                 <p>
-                  Collaborated with various stakeholders and made good
-                  relationships with them.
+                  Collaborated with various stakeholders.
                 </p>
               </div>
             </div>

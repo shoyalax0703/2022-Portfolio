@@ -164,6 +164,7 @@ border-radius: 0;
 /**********Experience**********/
 
 .experience{
+
   text-align: center;
   padding-bottom: 2rem;
   background-color: #f7f6f7;
@@ -180,4 +181,16 @@ border-bottom: 0.3125rem solid  var(--primary-pink);
 padding: 0.625rem;
 margin-bottom: 1.875rem;
 background: var(--primary-white);
+table-layout: fixed;
+word-wrap: break-word;
+}
+
+/**********Contact**********/
+
+.contacts{
+  color: #ff008b;
+  text-align: center;
+}
+.contacts h1{
+  text-transform: uppercase;
 }

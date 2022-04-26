@@ -1,14 +1,16 @@
 import React from "react";
 import mylogo from "../mylogo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="#">
           <img className="logo" src={mylogo} alt="logo..." />
-        </a>
+        </Link>
         <button
+          id="js-hamburger"
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -26,24 +28,52 @@ const Navbar = () => {
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link
+                duration={1}
+                smooth={true}
+                to="home"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 home <span className="sr-only"></span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                duration={1}
+                smooth={true}
+                to="aboutMe"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 about me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                duration={1}
+                smooth={true}
+                to="experiences"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 experiences
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link
+                duration={1}
+                smooth={true}
+                to="contact"
+                offset={-110}
+                className="nav-link"
+                href="#"
+              >
                 contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

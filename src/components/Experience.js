@@ -5,7 +5,7 @@ import { faComments, faDiagramProject, faMicrophoneLines } from "@fortawesome/fr
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <div id="experiences" className="experience">
       <h1 className="py-5"> experiences</h1>
         <div className="container">
           <div className="row">

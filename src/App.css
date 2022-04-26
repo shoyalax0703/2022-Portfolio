@@ -194,3 +194,22 @@ word-wrap: break-word;
 .contacts h1{
   text-transform: uppercase;
 }
+/**********Footer**********/
+.footer{
+  background:var(--primary-dark);
+  color: #f7f6f7;
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #f7f6f7;
+}
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-pink);
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 0;
+}

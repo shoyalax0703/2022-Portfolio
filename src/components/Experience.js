@@ -50,7 +50,7 @@ const Experience = () => {
                 </div>
                 <h3>Communication</h3>
                 <p>
-                  Collaborated with various stakeholders.
+                  Collaborated with various stakeholders in English and Japanese.
                 </p>
               </div>
             </div>
